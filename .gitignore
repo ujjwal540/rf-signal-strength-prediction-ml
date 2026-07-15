@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv-1/
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated artifacts
+data/rf_dataset.csv
+data/sample_prediction.csv
+models/*.pkl
+outputs/*.csv
+outputs/*.txt
+outputs/*.png
+
+# Logs
+*.log
